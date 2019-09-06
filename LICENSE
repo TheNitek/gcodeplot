@@ -1,4 +1,5 @@
 Main code copyright (c) 2016 Alexander R. Pruss
+Modified for polar plotters by Claus Naeveke
 SVG path code copyrights:
     Lennart Regebro <regebro@gmail.com>, Original Author
     Justin Gruenberg implemented the Quadradic Bezier calculations and provided suggestions and feedback about the d() function.
