@@ -16,8 +16,8 @@
       <param name="z-speed" type="float" min="-1000000" max="1000000" precision="1" _gui-text="Z-speed (mm/s):" _gui-description="Speed moving pen up/down (Default: 5)">5</param>
     </page>
     <page name="fitting" _gui-text="Fitting and Extracting">
-      <param name="scale" type="enum" _gui-text="Scaling mode:" _gui-description="Method for scaling to print area (Default: none; should be 'none' if tool-offset option is set in cutter tab)">
-        <item value="none">none (needed if tool offset&gt;0)</item>
+      <param name="scale" type="enum" _gui-text="Scaling mode:" _gui-description="Method for scaling to print area (Default: none)">
+        <item value="none">none</item>
         <item value="fit">fit</item>
         <item value="down-only">down-only</item>
       </param>
